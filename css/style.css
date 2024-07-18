@@ -43,14 +43,14 @@ header { width:600px; height:100%; position:fixed; top:0px; left:-420px; backgro
 #sns .fa:hover { opacity:1; transform:scale(1.4);}
 
 /* contents 레이아웃 */
-#side { width:750px; height:100%; position:fixed; bottom:0px; right:-750px; background:#f79657; opacity:0.5; transform:skewX(-40deg); transition:all 0.5s;}
+#side { width:750px; height:100%; position:fixed; bottom:0px; right:-750px; background: #222222; opacity:0.5; transform:skewX(-40deg); transition:all 0.5s;}
 #side:hover { right:-500px; opacity:0.8;}
-#side .con { width:400px; height:100%; position:absolute; left:150px; bottom:0px; background:#ff6600; 	box-sizing:border-box; padding:10px; transition:all  1s;}
+#side .con { width:400px; height:100%; position:absolute; left:150px; bottom:0px; background:#111111; 	box-sizing:border-box; padding:10px; transition:all  1s;}
 #side:hover .con { left:50px;}
 
 /* contents내 썸네일 */
 #side .con p { width: 300px; height:100px; position:absolute; left:50px;}
-#side .con p em { display:inline-block; font:bold 16px/1.7 "Noto Sans KR"; color:#111111; transform:skewX(40deg);}
+#side .con p em { display:inline-block; font:bold 16px/1.7 "Noto Sans KR"; color:#ffffff; transform:skewX(40deg);}
 #side .con p img { width:260px; height:70px; opacity:0.5; transition:all 0.5s; transform:skewX(40deg);}
 #side .con p img:hover { opacity:1;}
 #side .con p:nth-child(1) { bottom:270px; transform: translateX(200px); transition:all  0.4s;}
@@ -59,7 +59,7 @@ header { width:600px; height:100%; position:fixed; top:0px; left:-420px; backgro
 #side:hover .con p { transform:translateX(0px);}	
 
 /* 자동롤링 버튼*/
-#side .btnContents { width:150px; height:50px; position:absolute;  bottom:40px; left:100px; color:#111111;	transform:skewX(40deg); }
+#side .btnContents { width:150px; height:50px; position:absolute;  bottom:40px; left:100px; color:#ff6600;	transform:skewX(40deg); }
 #side:hover .btnContents { left:700px;}	
 .btnContents i { font-size:60px; position:absolute; bottom:0px; right:0px; opacity:1;}
 .btnContents i:nth-child(1) { animation:ani linear 1.5s 0s infinite;}
