@@ -22,8 +22,8 @@ header { width:600px; height:100%; position:fixed; top:0px; left:-420px; backgro
 /* 1depth*/
 #gnb { 	width:165px; position:absolute; top:150px; right:0px;}
 #gnb>li {position:relative; }
-#gnb>li>a { display:block; width:165px; height:50px; font:bold 18px/3 "Noto Sans KR"; color:#222; box-sizing:border-box; padding-right:40px; text-align:right;}
-#gnb>li.on>a { background:#111; color:#fff;}
+#gnb>li>a { display:block; width:165px; height:50px; font:bold 18px/3 "Noto Sans KR"; color:#222; box-sizing:border-box; padding-right:30px; text-align:center;}
+#gnb>li.on>a { background:#111; color:#ffffff81;}
 #gnb>li:hover>a { background:#111; color:#fff;}
 #gnb em { display:inline-block; transform:skewX(40deg)!important; }
 #gnb em i { 	margin-right:20px;}
@@ -31,8 +31,8 @@ header { width:600px; height:100%; position:fixed; top:0px; left:-420px; backgro
 /* 2depth */
 #gnb ul { position:absolute; left:0px;  top:0px; opacity:0; transition:all 0.4s;}
 #gnb>li:hover ul { opacity:0.8; left:205px; }
-#gnb ul a { display:block; width:180px; height:40px; background:#222; border-bottom:1px solid #000000; font:bold 13px/2.5 arial; color:#fff; box-sizing:border-box; padding-left:20px; margin-bottom:1px; transition:all 0.5s; }
-#gnb ul a:hover { background:#000000; color:#333; }
+#gnb ul a { display:block; width:180px; height:40px; background:#222; border-bottom:1px solid #000000; font:bold 13px/2.5 arial; color:#ffffff81; box-sizing:border-box; padding-left:10px; text-align:center; margin-bottom:1px; transition:all 0.5s; }
+#gnb ul a:hover { background:#000000; color:#ffffff; }
 #gnb>li.on ul { opacity:0.8; left:205px; top:-10px; }
 #gnb li.on ul a { background:#444; opacity:0.7; }
 
@@ -43,7 +43,7 @@ header { width:600px; height:100%; position:fixed; top:0px; left:-420px; backgro
 #sns .fa:hover { opacity:1; transform:scale(1.4);}
 
 /* contents 레이아웃 */
-#side { width:800px; height:100%; position:fixed; bottom:0px; right:-800px; background:#f79657; opacity:0.5; transform:skewX(-40deg); transition:all 0.5s;}
+#side { width:750px; height:100%; position:fixed; bottom:0px; right:-750px; background:#f79657; opacity:0.5; transform:skewX(-40deg); transition:all 0.5s;}
 #side:hover { right:-500px; opacity:0.8;}
 #side .con { width:400px; height:100%; position:absolute; left:150px; bottom:0px; background:#ff6600; 	box-sizing:border-box; padding:10px; transition:all  1s;}
 #side:hover .con { left:50px;}
@@ -51,7 +51,7 @@ header { width:600px; height:100%; position:fixed; top:0px; left:-420px; backgro
 /* contents내 썸네일 */
 #side .con p { width: 300px; height:100px; position:absolute; left:50px;}
 #side .con p em { display:inline-block; font:bold 16px/1.7 "Noto Sans KR"; color:#111111; transform:skewX(40deg);}
-#side .con p img { width:283px; height:70px; opacity:0.5; transition:all 0.5s; transform:skewX(40deg);}
+#side .con p img { width:260px; height:70px; opacity:0.5; transition:all 0.5s; transform:skewX(40deg);}
 #side .con p img:hover { opacity:1;}
 #side .con p:nth-child(1) { bottom:270px; transform: translateX(200px); transition:all  0.4s;}
 #side .con p:nth-child(2) { bottom:160px; transform: translateX(200px); transition:all  0.8s;}
